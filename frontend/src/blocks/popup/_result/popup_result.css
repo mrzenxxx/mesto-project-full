@@ -1,0 +1,20 @@
+.popup_type_result .cont {
+    width: 430px;
+    height: 330px;
+    padding: 60px 36px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.popup_type_result img {
+    margin-bottom: 32px;
+    width: 120px;
+    height: 120px;
+}
+
+.popup_type_result .text {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}

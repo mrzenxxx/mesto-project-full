@@ -1,0 +1,55 @@
+.entrance__form {
+    max-width: 358px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.entrance__form > div {
+
+}
+
+.entrance__title {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.entrance__field {
+    width: 100%;
+    color: #ffffff;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 7px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #CCCCCC;;
+}
+
+.entrance__button.entrance__link {
+    width: 100%;
+    color: #0000;
+}
+
+.entrance__button.popup__button {
+    color: #000000;
+    width: 100%;
+    margin-top: 50%;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+.entrance__button.entrance__link a {
+    text-decoration: none;
+    background: #0000;
+    color: #CCCCCC;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.entrance__button.popup__button:hover {
+    opacity: .6;
+}

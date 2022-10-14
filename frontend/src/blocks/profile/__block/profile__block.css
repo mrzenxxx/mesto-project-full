@@ -1,0 +1,13 @@
+.profile__block {
+  margin-right: 27px;
+  position: relative;
+  border-radius: 50%;
+}
+
+@media (max-width: 640px) {
+  .profile__block {
+    max-width: 100px;
+    width: 100%;
+    margin: auto;
+  }
+}

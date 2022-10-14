@@ -1,0 +1,16 @@
+.element__image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color:#000;
+}
+
+.element__image:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.element__button_action_del {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  width: 18px;
+  height: 19px;
+  top: 20px;
+  right: 20px;
+  background: url("../../../../images/Trash.svg");
+  position: absolute;
+}
+
+.element__button_action_del.card__delete-button_hidden {
+  display: none;
+}
+
+.element__button_action_del:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+}

@@ -1,0 +1,13 @@
+.element__button_action_like {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    width: 22px;
+    height: 19px;
+    background: url("../../../../images/Union.svg");
+    transition: 0.3s;
+  }

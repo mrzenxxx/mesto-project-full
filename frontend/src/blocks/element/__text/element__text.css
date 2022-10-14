@@ -1,0 +1,17 @@
+.element__text {
+  max-width: 246px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 570px) {
+  .element__text {
+    max-width: 200px;
+  }
+}
+@media (max-width: 475px) {
+  .element__text {
+    max-width: 246px;
+  }
+}

@@ -1,0 +1,11 @@
+.popup__close-btn_image {
+  top: -40px;
+  right: -40px;
+  position: absolute;
+}
+
+@media (max-width: 1024px) {
+  .popup__close-btn_image {
+    right: 0;
+  }
+}

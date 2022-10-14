@@ -1,0 +1,21 @@
+.profile__add-image {
+  max-width: 22px;
+  min-height: 22px;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.profile__add-image:hover {
+  opacity: 0.6;
+}
+
+.profile__add-image:focus {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 374px) {
+  .profile__add-image {
+    max-width: 16px;
+    min-height: 16px;
+  }
+}

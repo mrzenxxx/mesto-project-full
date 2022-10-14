@@ -1,0 +1,24 @@
+.element__button_clicked {
+  padding: 0;
+  margin-bottom: 5px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  width: 22px;
+  height: 19px;
+  background-image: url("../../../../images/Vectorlike.svg");
+}
+
+.element__button_clicked.is_user_like {
+  background-image: url("../../../../images/Union.svg");
+}
+
+.element__button_clicked:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+}
+
+

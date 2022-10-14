@@ -1,0 +1,10 @@
+.element__like-group {
+  box-sizing: inherit;
+  width: 22px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}

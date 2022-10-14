@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "no-underscore-dangle": ["error", {"allow": ["_id"]}],
+    "new-cap": ["error", { "newIsCap": false, "capIsNew": false }],
+    "linebreak-style": 0,
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 0 }],
+    "consistent-return": "off",
+    "arrow-body-style": "off"
+  }
+}
+

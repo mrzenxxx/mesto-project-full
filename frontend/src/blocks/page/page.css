@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  background-color: #000000;
+}
+
+.page-content {
+  flex: 1;
+}

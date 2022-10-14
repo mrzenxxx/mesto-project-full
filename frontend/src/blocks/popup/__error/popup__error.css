@@ -1,0 +1,19 @@
+.popup__error {
+  display: block;
+  min-height: 40px;
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 13px;
+}
+
+@media screen and (max-width: 550px) {
+  .popup__error {
+    margin-bottom: 20px;
+  }
+}
+
+.popup__error:last-of-type {
+  margin: 0;
+}
