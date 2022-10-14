@@ -28,7 +28,7 @@ class Authentication {
     }
 
     checkToken(token) {
-        return fetch(`${this._address}/users/me`, {
+        return fetch(`${this._address}`, {
             method: "GET",
             headers: {
                 authorization: `Bearer ${token}`
@@ -42,6 +42,7 @@ const authentication = new Authentication({
     headers: {
         "Content-Type":
             "application/json",
+        authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzBiMjJhM2IyYmZlODU1ODE3NjNmYTEiLCJpYXQiOjE2NjE2NzYwNTQsImV4cCI6NjY2NjY5OTk5OX0.oVM0YOHw7dTM54Mt4yPctmggonwM6jXpGRT6xfaX9Wo",
     }
 });
 
